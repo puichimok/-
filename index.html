@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《掌中決》結合布袋戲文化、AI 即時生成、體感互動與雙人競合的次世代遊戲機台。">
+  <meta property="og:title" content="掌中決｜AI 布袋戲互動機台">
+  <meta property="og:description" content="VS × AI × 遊戲互動 × 機台：一掌入戲，一聲成招。">
+  <meta property="og:image" content="./assets/og.jpg">
+  <title>掌中決｜AI 布袋戲互動機台</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="seal">掌</span><span>掌中決</span></a>
+    <nav aria-label="網站章節">
+      <a href="#origin">創意起點</a>
+      <a href="#sources">創意來源</a>
+      <a href="#concept">核心概念</a>
+      <a href="#machines">機台規格</a>
+      <a href="#prototype">互動雛形</a>
+      <a href="#film">示範影片</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">VS × AI × 遊戲互動 × 機台</p>
+        <h1>一掌入戲，<br>一聲成招。</h1>
+        <p>用雙手操偶、用聲音創造招式，與玩家及 AI 共同演出一場每次都不同的台灣武俠布袋戲。</p>
+        <a class="primary" href="#origin">進入掌中江湖 ↓</a>
+      </div>
+      <figure class="hero-visual">
+        <img id="hero-image" src="./assets/medium-scene.jpg" alt="中型雙人布袋戲機台使用情境">
+        <figcaption><strong id="hero-title">中型｜雙雄台</strong><span id="hero-meta">雙人即時競合</span></figcaption>
+        <div class="switcher" aria-label="切換機台情境">
+          <button data-machine="small">01</button>
+          <button class="active" data-machine="medium">02</button>
+          <button data-machine="large">03</button>
+        </div>
+      </figure>
+    </section>
+
+    <section class="chapter light" id="origin">
+      <div class="chapter-number">01</div>
+      <div>
+        <p class="eyebrow">創意起點</p>
+        <h2>從「觀看布袋戲」<br>轉變為「親自演一齣戲」</h2>
+        <p class="body-copy">布袋戲融合操偶、口白、音樂、戲劇與工藝。《掌中決》讓玩家成為操偶師，以雙手動作、聲音和即時決策完成一場武俠演出，讓文化不只是機台外觀，而是遊戲本身。</p>
+      </div>
+    </section>
+
+    <section class="chapter source-section" id="sources">
+      <div class="chapter-number">02</div>
+      <div class="chapter-content">
+        <p class="eyebrow">創意來源</p>
+        <h2>傳統表演的身體性，<br>遇上次世代即時生成。</h2>
+        <div class="source-grid">
+          <article><span>壹</span><h3>傳統布袋戲</h3><p>延續「人在幕後、偶在台前」的操偶空間與口白、音樂、武打表演。</p></article>
+          <article><span>貳</span><h3>格鬥遊戲</h3><p>以生命值、攻防、反擊與必殺技建立容易理解的對決節奏。</p></article>
+          <article><span>參</span><h3>生成式 AI</h3><p>依角色與戰況產生登場詩、即時旁白、招式名稱及多重結局。</p></article>
+          <article><span>肆</span><h3>街機文化</h3><p>保留快速加入、現場圍觀與輪流挑戰，讓遊戲成為公共演出。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter light concept-section" id="concept">
+      <div class="chapter-number">03</div>
+      <div class="chapter-content">
+        <p class="eyebrow">核心設計概念</p>
+        <h2>文化不是裝飾，<br>而是操作方式。</h2>
+        <p class="body-copy">玩家同時是操偶師、演員與共同編劇；AI 則是對手、旁白、配音助手與戰鬥導演。</p>
+        <div class="mapping-table">
+          <div><span>布袋戲元素</span><span>遊戲互動轉化</span></div>
+          <div><strong>操偶師</strong><p>玩家以手臂與戲偶姿勢操作角色</p></div>
+          <div><strong>口白</strong><p>語音辨識後轉成角色聲線與氣勢值</p></div>
+          <div><strong>武打演出</strong><p>攻擊、防禦、閃避及合體必殺技</p></div>
+          <div><strong>劇本</strong><p>AI 依戰況生成衝突、轉折與結局</p></div>
+          <div><strong>觀眾叫好</strong><p>現場投票改變氣勢與下一幕劇情</p></div>
+        </div>
+        <div class="concept-flow" aria-label="互動關係">
+          <div><span>玩家</span><strong>操偶・出聲</strong></div><b>×</b>
+          <div><span>AI</span><strong>生成・導演</strong></div><b>×</b>
+          <div><span>觀眾</span><strong>投票・助攻</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="machines-section" id="machines">
+      <div class="section-heading">
+        <p class="eyebrow">04・三種機台規格</p>
+        <h2>同一個掌中江湖，<br>進入不同大小的場地。</h2>
+        <p>三款共用 AI 內容平台與角色資料，依空間規模增加雙人設備、體感範圍及觀眾參與。</p>
+      </div>
+      <div class="machine-cards">
+        <article>
+          <img src="./assets/small-scene.jpg" alt="小型掌中亭使用情境">
+          <div><span>SMALL・約 1.5 × 1.5 m</span><h3>掌中亭</h3><p>單人快玩／雙人輪替</p><small>咖啡店・校園・文化館・快閃店</small></div>
+        </article>
+        <article>
+          <img src="./assets/medium-scene.jpg" alt="中型雙雄台使用情境">
+          <div><span>MEDIUM・約 3.5 × 2.5 m</span><h3>雙雄台</h3><p>雙人即時對戰與合作</p><small>商場・博物館・文化中心・品牌活動</small></div>
+        </article>
+        <article>
+          <img src="./assets/large-scene.jpg" alt="大型掌中劇場使用情境">
+          <div><span>LARGE・約 8 × 6 m</span><h3>掌中劇場</h3><p>玩家＋AI＋觀眾共同展演</p><small>大型展覽・文化節・旗艦商場・觀光場域</small></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="prototype-section" id="prototype">
+      <div class="section-heading">
+        <p class="eyebrow">05・可操作動態雛形</p>
+        <h2>試玩一局《掌中決》</h2>
+        <p>以網頁按鈕模擬實體戲偶姿勢、語音辨識及觀眾投票。先選角色，再開始對決。</p>
+      </div>
+
+      <div class="game-shell">
+        <aside class="role-panel">
+          <p class="panel-label">01 選角</p>
+          <button class="role selected" data-role="0"><i style="--role-color:#59d8e7"></i><span><strong>墨雨孤鋒</strong><small>劍門・速度與連擊</small></span></button>
+          <button class="role" data-role="1"><i style="--role-color:#e75545"></i><span><strong>赤焰狂生</strong><small>拳宗・近戰與擊退</small></span></button>
+          <button class="role" data-role="2"><i style="--role-color:#a785f2"></i><span><strong>玄羽策士</strong><small>術門・遠攻與控場</small></span></button>
+          <button id="start-game" class="start-game">布幕開啟・開始對決</button>
+        </aside>
+
+        <div class="battle-stage">
+          <div class="hud">
+            <div class="fighter"><span id="player-name">墨雨孤鋒</span><div><i id="player-hp-bar"></i></div><small>HP <b id="player-hp">100</b></small></div>
+            <div class="versus"><strong id="battle-mode">VS</strong><span>AI 即時導演</span></div>
+            <div class="fighter enemy"><span>夜羅剎・AI</span><div><i id="enemy-hp-bar"></i></div><small>HP <b id="enemy-hp">100</b></small></div>
+          </div>
+          <div class="stage-view">
+            <img src="./assets/medium-scene.jpg" alt="雙人操偶對戰">
+            <div class="ai-log"><span>AI 旁白</span><p id="ai-log" aria-live="polite">AI 正在等待兩位操偶師登台……</p></div>
+          </div>
+          <div class="meters">
+            <div><span>氣勢值</span><div><i id="qi-bar"></i></div><b id="qi-value">20%</b></div>
+            <div><span>觀眾聲勢</span><div class="audience"><i id="audience-bar"></i></div><b id="audience-value">32%</b></div>
+          </div>
+        </div>
+
+        <aside class="action-panel">
+          <p class="panel-label">02 操偶與出聲</p>
+          <button data-action="attack"><i>↗</i><span><strong>揮偶攻擊</strong><small>向前揮動戲偶</small></span></button>
+          <button data-action="defend"><i>╳</i><span><strong>橫偶防禦</strong><small>抓準時機反擊</small></span></button>
+          <button data-action="voice"><i>聲</i><span><strong>喊出台詞</strong><small>語音轉化為氣勢</small></span></button>
+          <button class="special" data-action="special"><i>必</i><span><strong>角色必殺技</strong><small id="special-hint">需要 100% 氣勢</small></span></button>
+        </aside>
+      </div>
+
+      <div class="vote-panel">
+        <div><p class="panel-label">03 觀眾介入劇情</p><h3>下一幕，該如何發展？</h3></div>
+        <div>
+          <button data-vote="繼續對決">繼續對決<span>＋氣勢</span></button>
+          <button data-vote="暫時結盟">暫時結盟<span>＋氣勢</span></button>
+          <button data-vote="魔王登場">魔王登場<span>＋氣勢</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="film-section" id="film">
+      <div class="section-heading">
+        <p class="eyebrow">06・宣傳示範影片</p>
+        <h2>從一人入戲，<br>到眾人共演。</h2>
+        <p>約三十秒宣傳片依序呈現三種機台規格與核心玩法，搭配繁體中文旁白及原創配樂。</p>
+      </div>
+      <div class="video-frame">
+        <video controls playsinline preload="metadata" poster="./assets/large-scene.jpg">
+          <source src="./assets/demo.mp4?v=2" type="video/mp4">
+          您的瀏覽器不支援影片播放。
+        </video>
+        <span>PROMO FILM・繁中旁白・約 30 秒</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="seal">掌</span>
+    <h2>每一次對決，<br>都是一齣新的戲。</h2>
+    <p>《掌中決》AI 布袋戲互動遊戲機台・HTML 展示雛形</p>
+    <a class="primary" href="#top">回到戲台頂端 ↑</a>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
